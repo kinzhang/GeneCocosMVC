@@ -32,7 +32,7 @@ module.exports = puremvc.define
 
                     self.sendNotification('WriteAppConfig');
                 }
-            }
+            };
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
         },
